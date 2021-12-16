@@ -93,7 +93,7 @@ sudo sysctl vm.swappiness=1
 timedatectl status
 timedatectl list-timezones
 sudo timedatectl set-timezone Asia/Kolkata
-sudo ntpq -p
+
 sudo apt install ntp -y
 
 ##Configure SSH Password less logins

@@ -111,6 +111,7 @@ sudo service ssh restart
 ----------****** Create a snapshot at this point ******-----------------
 Create 4 nodes from this image
 
+host name resolution
 #sudo nano /etc/hosts and include these lines:FQDN
 172.31.29.56 ip-172-31-29-56.ec2.internal nn
 172.31.27.96 ip-172-31-27-96.ec2.internal rm

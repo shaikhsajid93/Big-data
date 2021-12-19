@@ -20,7 +20,9 @@ sudo su hduser
 ssh-keygen
 cd .ssh
 cat id_rsa.pub >> authorized_keys
+cd
 ssh localhost
+exit
 
 
 #Download Hadoop

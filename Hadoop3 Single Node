@@ -7,6 +7,7 @@
 # Install Java
 sudo apt-get update
 sudo apt install default-jdk -y
+# Check versio of java or check wether java install or not
 java -version
 
 #Create a Hadoop user for accessing HDFS and MapReduce

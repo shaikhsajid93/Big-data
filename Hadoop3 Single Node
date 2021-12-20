@@ -135,7 +135,7 @@ jps
 
 hdfs dfs -mkdir /user
 hdfs dfs -mkdir /user/hduser
-hdfs dfs -put hadoop-3.3.0.tar.gz /user/hduser
+hdfs dfs -put hadoop-3.3.1.tar.gz /user/hduser
 
 yarn jar /usr/local/hadoop/share/hadoop/mapreduce/hadoop-*examples*.jar pi 5 10
 
